@@ -1,0 +1,317 @@
+body{
+   margin: 0%;
+   padding: 0%;
+   text-align: center;
+   font-size: 26px;
+   /* font-weight: 600; */
+   font-family: 'Noto Sans Zanabazar Square', sans-serif;
+   background-image: url('./images/operating-hours-image.png');
+   backdrop-filter: blur(4px);
+   background-repeat: no-repeat;
+   background-size: 180% 180%;
+   background-position: 80% 0% ;
+   overflow-x: hidden;
+  
+}
+
+h1{
+    font-family: 'Kurale', serif;
+color: #ffffff;
+}
+
+h3{
+    background-color: blue;
+    color: #ffffff;
+    margin: 0%;
+    width: 60%;
+    border-radius: 11%;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+:root{
+    --moduleCard1:none;
+    --moduleCard2:none;
+    --moduleCard3:none;
+    --moduleCard4:none;
+    --moduleCard5:none;
+    --moduleCard6:none;
+    --moduleCard7:none;
+    --moduleCard8:none;
+    --moduleCard9:none;
+}
+.header_subTitle{
+    font-family: 'Kurale', serif;
+    width: fit-content;
+    color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2%;
+    margin-bottom: -2%;
+}
+.underline-content{
+    border: 2px solid #ffff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.barbar_contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.barbar_contain{
+    align-items: center;
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.borader{
+    border: 2px solid;
+    height: 3rem;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-radius: 11%;
+    align-items: center;
+    background-size: 100% 100%;
+}
+.image_barbar{
+    width: 245px;
+    margin: 1%; 
+}
+.about{
+    background-image: url('./images/About-Image.png'); 
+}
+.services{
+    background-image: url('./images/services.png'); 
+}
+.product{
+    background-image: url('./images/products.png'); 
+}
+.hours{
+    background-image: url('./images/operating-hours.png');
+}
+.babers{
+    background-image: url('./images/barbers-image.png');
+}
+.jobs{
+    background-image: url('./images/jobs-image.png');
+}
+.beard{
+    background-image: url('./images/beard.png');
+}
+.hair{
+    background-image: url('./images/hair-image.png');
+}
+.face{
+    background-image: url('./images/face-image.png');
+}
+/* barber and product image linked to there repective product */
+.Nelisizwe{
+    background-image: url('./images/nelisiwe.png')
+}
+.Nabeelah{
+    background-image: url('./images/nabeelah.png')
+}
+.Craig{
+    background-image: url('./images/craig.png')
+}
+.Tshepo{
+    background-image: url('./images/tshepo.png')
+}
+.Kelly{
+    background-image: url('./images/kelly.png')
+}
+.Josh{
+    background-image: url('./images/josh.png')
+}
+.oil{
+    background-image: url('./images/beard-oil.png');
+}
+.classic{
+    background-image: url('./images/muhle-classic.png');
+}
+.wax{
+    background-image: url('./images/muhle-beard-wax.png');
+}
+.shampoo{
+    background-image: url('./images/beard-shampoo.png');
+}
+.bank{
+    background-image: url('./images/muhle-blade-bank.png');
+}
+.spray{ background-image: url('./images/evo-support-spray.png');}
+.definer{ background-image: url('./images/evo-curl-definer.png');}
+.timmer{ background-image: url('./images/slimline-trimmer.png');}
+.pos{
+    position: fixed;
+    height: 90%;
+    width: 100%;
+    backdrop-filter: blur(4px);
+    top: -11%; 
+}
+
+.module1{
+    display: var(--moduleCard1);   
+}
+.module2{
+    display: var(--moduleCard2);
+}
+.module3{
+    display: var(--moduleCard3);
+}
+.module4{
+    display: var(--moduleCard4);
+}
+.module5{
+    display: var(--moduleCard5);
+}
+.module6{
+    display: var(--moduleCard6);
+}
+.module7{
+    display: var(--moduleCard7);
+}
+.module8{
+    display: var(--moduleCard8); 
+}
+.module9{
+    display: var(--moduleCard9);
+}
+.closeBtn{
+    position: relative;
+    top: 6%;
+    left: 40%;
+    color: #ffffff;
+}
+.barbar_contain_module{
+    width: 70%;
+    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto;   
+    background-color: #233768;
+    color: #ffffff;
+    align-items: center;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.barbar_contain_module_service{
+    width: 100%;
+}
+.service-btn-contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.service-btn-contain-sub{
+    width: fit-content;
+    height: 22rem;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.services-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service-logo{
+    color: rgb(71, 71, 71);
+    background-color: #ffffff;
+    border-radius: 12%;
+    margin-top: 8%;
+}
+.card-image{
+    height: 20rem;
+    width: 10rem;
+    background-size: 100% 100%;
+}
+.card-text{
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.borader-1{
+    height: 13rem;
+    width: 13rem;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: 4%;
+    margin-top: 10%;
+    align-items: center;
+    align-items: center;
+    background-size: 100% 100%;
+}
+.barber-btn-contain-sub{
+    width: fit-content;
+    height: 15rem;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.barbar-panel{
+    width: 90%;
+    padding-top: 3%;
+
+}
+.prod-btn-contain{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 5%;
+}
+.prod-btn-contain-sub{
+height: 15rem;
+ 
+}
+.prod-name{
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: -10%;
+}
+.prod-price{
+    text-align: right;
+}
+.pro-btn-contain-sub{
+    width: fit-content;
+}
+.barber-btn-contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.borader-1-1{
+    height: 10rem;
+    width: 10rem;
+    margin: 2%;
+    align-items: center;
+    align-items: center;
+    background-size: 100% 100%;
+}
+.borader-1-img{
+    height: 60%;
+    width: 10rem;
+    background-size: 100% 100%;
+}
+.Barber-heading{
+    margin-top: -3%;
+    margin-bottom: 0.5%;
+}
+.babers-underline{
+    margin-bottom: 3%; 
+}
